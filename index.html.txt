@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHATTHALUNG RE:START - แพลตฟอร์มสร้างโอกาสทางอาชีพผู้พ้นโทษ</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Prompt', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <span class="bg-emerald-600 text-white font-bold p-2 rounded-lg text-xl">PR</span>
+                <span class="text-xl font-bold text-slate-900">PHATTHALUNG RE:START</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium text-slate-600">
+                <a href="#about" class="hover:text-emerald-600 transition">เกี่ยวกับโครงการ</a>
+                <a href="#jobs" class="hover:text-emerald-600 transition">ค้นหางาน</a>
+                <a href="#employers" class="hover:text-emerald-600 transition">สำหรับสถานประกอบการ</a>
+            </div>
+            <div>
+                <a href="#contact" class="bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2.5 rounded-xl font-medium transition shadow-sm">เข้าสู่ระบบ / ลงทะเบียน</a>
+            </div>
+        </div>
+    </nav>
