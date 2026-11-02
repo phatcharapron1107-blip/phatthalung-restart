@@ -11,7 +11,7 @@
         body { font-family: 'Prompt', sans-serif; }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800">
+<body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen">
 
     <!-- Navbar -->
     <nav class="bg-white shadow-sm sticky top-0 z-50">
@@ -21,12 +21,41 @@
                 <span class="text-xl font-bold text-slate-900">PHATTHALUNG RE:START</span>
             </div>
             <div class="hidden md:flex space-x-8 font-medium text-slate-600">
-                <a href="#about" class="hover:text-emerald-600 transition">เกี่ยวกับโครงการ</a>
-                <a href="#jobs" class="hover:text-emerald-600 transition">ค้นหางาน</a>
-                <a href="#employers" class="hover:text-emerald-600 transition">สำหรับสถานประกอบการ</a>
+                <a href="index.html" class="text-emerald-600 font-semibold">หน้าแรก</a>
+                <a href="register.html" class="hover:text-emerald-600 transition">ลงทะเบียนสมัครงาน</a>
             </div>
             <div>
-                <a href="#contact" class="bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2.5 rounded-xl font-medium transition shadow-sm">เข้าสู่ระบบ / ลงทะเบียน</a>
+                <a href="register.html" class="bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2.5 rounded-xl font-medium transition shadow-sm">ไปหน้าลงทะเบียน</a>
             </div>
         </div>
     </nav>
+
+    <!-- Hero Section -->
+    <main class="flex-grow">
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+            <div class="inline-block bg-emerald-100 text-emerald-800 text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
+                โครงการฟื้นฟูและสร้างโอกาสทางอาชีพ จ.พัทลุง
+            </div>
+            <h1 class="text-4xl sm:text-6xl font-extrabold text-slate-900 tracking-tight mb-6">
+                PHATTHALUNG RE:START <br class="hidden sm:inline">
+                <span class="text-emerald-600">เชื่อมโยงโอกาส คืนคนดีสู่สังคม</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-lg text-slate-600 mb-10">
+                แพลตฟอร์มศูนย์กลางในการจับคู่งาน พัฒนาทักษะ และสร้างรายได้ให้กับผู้พ้นโทษและผู้ด้อยโอกาสในจังหวัดพัทลุงอย่างยั่งยืน
+            </p>
+            <div class="flex justify-center gap-4">
+                <!-- ปุ่มกดเพื่อเปลี่ยนหน้าไปหน้าฟอร์มสมัครงาน -->
+                <a href="register.html" class="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg transition transform hover:-translate-y-0.5">
+                    🚀 เริ่มต้นกรอกข้อมูลสมัครงาน
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-sm">
+        <p>&copy; 2026 PHATTHALUNG RE:START Project. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
